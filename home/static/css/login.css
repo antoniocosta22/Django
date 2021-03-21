@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgba(9, 78, 75, 0.63);
+    color: rgba(255, 255, 255, 0.733);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bloco {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b1 {
+    width: 500px;
+    height: auto;
+    border-radius: 20px 0px 20px 0px;
+    align-items: center;
+    border: solid black 1px;
+}
+#userlogin {
+    border: solid black 1px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#usersenha {
+    border: solid black 1px;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+#senha, #usuario {
+    font-weight: bold;
+}
