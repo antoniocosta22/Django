@@ -7,7 +7,7 @@ IS - Conteúdos
 {% block opcoes %}
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Pra você
+    Mais
     </a>
     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
     <li><a class="dropdown-item" href="#">Informações</a></li>
@@ -17,7 +17,15 @@ IS - Conteúdos
 <li class="nav-item">
     <a class="nav-link text-dark" href="#">Publicações</a>
 </li>
-
-  <button type="button" class="btn btn-outline-success">Fazer Upload</button>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary" type="button" >Fazer Upload</button>
+</div>
 
 {% endblock %}  
+
+{% block meio %}
+  {% block infos %}
+  {% endblock %}
+
+
+{% endblock %}

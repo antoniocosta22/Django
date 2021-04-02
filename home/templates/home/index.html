@@ -1,5 +1,35 @@
-{% extends 'base.html' %}
 
+{% extends 'base.html' %}
+{% load static %}
 {% block titulo %}
 IS - Página Inicial
+{% endblock %}
+
+{% block meio %}
+<!--logo1-->
+    
+    {% block infos %}
+        <div class="card text-center" style="margin: 10px; background-color:#fcfcfcbb;">
+            <div class="card-body">
+            <h5 class="card-title">Nossa plataforma</h5>
+            <p class="card-text">Hoje essa parte de conteúdo se encontra em desenvolvimento e frequentemente atualizada, 
+                hoje contamos com somente o front-end, o desenvolvedor da plataforma busca constantemente mais conhecimento para
+                implementar dentro da basefont, o propósito é sim, desenvolver tudo sozinho, por critério de aprendizado e 
+                criação de um reconhecimento na parte de Web. 
+            </p>
+            <a href="#" class="btn btn-primary">Sobre o nosso Dev</a>
+            <p class="card-text" style="padding-top: 10px;"><small class="text-muted">Data de modificação: 27/03/2021</small></p>
+            </div>
+            
+        </div>
+    <!--auditoria-->
+    <div class="card text-center" style="margin: 10px; background-color:#fcfcfcbb;">
+        <div class="card-body">
+        <h5 class="card-title">Auditoria livre</h5>
+        <p class="card-text">Todas as modificações feitas em Front-end</p>
+        <a href="auditoria/" class="btn btn-primary">acessar</a>
+        </div>
+    </div>
+    {% endblock %}
+  <!--fim auditoria-->
 {% endblock %}
